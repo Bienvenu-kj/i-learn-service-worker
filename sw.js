@@ -1,9 +1,9 @@
 const CACHE_NAME = 'mon-cache-v1';
 const FILES_TO_CACHE = [
   '/',
-  '/index.html',
-  '/style.css',
-  '/script.js'
+  'index.html',
+  'style.css',
+  'script.js'
 ];
 
 self.addEventListener('install', event => {
